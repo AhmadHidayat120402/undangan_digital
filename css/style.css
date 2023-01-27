@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+/* font-family: 'VT323', monospace; */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+/* font-family: 'Oswald', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  /* overflow-y: hidden; */
+}
+main {
+  margin: 0 auto;
+  max-width: 480px;
+  background-color: #63619f;
+}
+main .navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  background-color: #dddddd;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  /* display: grid; */
+  align-content: center;
+  transition: 0.3s;
+  /* border-top: 0.5px solid #95603239; */
+}
+main .navigation ul,
+main .navigation a {
+  display: flex;
+}
+main .navigation ul {
+  /* justify-content: space-around; */
+  overflow-x: auto;
+}
+main .navigation ul li {
+  list-style: none;
+  min-width: 95px;
+}
+main .navigation ul li a {
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0rem;
+  color: #262626;
+  font-weight: 600;
+}
+main .navigation ul li a .icon {
+  color: #956032 !important;
+  font-size: 22px;
+}
+
+main .nama-pasangan {
+  font-size: 28px;
+  font-family: "VT323", monospace;
+  font-weight: 500;
+  color: #5a523f;
+}
+main .nama-pasangan.dan {
+  margin: -10px 0;
+  font-size: 46px;
+}
+main p {
+  font-size: 12px;
+  color: #956032;
+  width: 300px;
+  padding: 0 25px;
+}
+main p.justify {
+  text-align: justify;
+}
+main .nama-tamu {
+  font-size: 20px;
+  color: #5a523f;
+  margin: 5px 0;
+}
+
+main .section {
+  padding: 10px 0 80px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+main .width_bottom {
+  height: 93vh !important;
+}
+main .content {
+  z-index: 2;
+}
+main .section img.img-utama {
+  width: 240px;
+  height: auto;
+}
+main .section img.img-pasangan {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border-radius: 50px;
+}
+/* main .section .content {
+  margin: 0px auto;
+} */
+main .section .row {
+  display: flex;
+  padding: 20px 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+main .section .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 10px 0;
+}
+main .section .row .col p {
+  margin-top: 10px;
+  width: auto;
+  line-height: 17px;
+}
+main .section .row .col img {
+  width: 80px;
+}
+
+@media screen and (min-width: 480px) {
+  main .navigation {
+    position: relative;
+  }
+}
