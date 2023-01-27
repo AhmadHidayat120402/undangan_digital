@@ -1,4 +1,4 @@
-<div class="content" id="bridge">
+<div class="content pd-content" id="bridge">
     <img src="img/bride-img1.png" alt="">
     <hr>
     <img src="img/bride-img2.png" alt="">

@@ -1,9 +1,9 @@
-<div class="content" id="vanue">
+<div class="content pd-content" id="vanue">
     <img src="img/party-title.png" alt="">
     <p>Date: Saturday, February 18th 2023</p>
     <p>Time: 18.00 - 20.00</p>
     <hr>
-    <img src="img/vanue-img1.png" alt="">
+    <img class="place" src="img/vanue-img1.png" alt="">
     <p>The Sixth Rooftop</p>
     <p> Daima Norwood hotel</p>
     <hr>

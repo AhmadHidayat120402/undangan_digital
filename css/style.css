@@ -126,8 +126,13 @@ main .nama-tamu {
   margin: 5px 0;
 }
 
+.pd-content {
+  padding: 0 30px;
+  margin: 0;
+}
 main .section {
-  padding: 38px 0 90px 0;
+  margin-bottom: 38px;
+  padding: 38px 0 30px 0;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -153,7 +158,6 @@ main .section img.img-pasangan {
 } */
 main .section .row {
   display: flex;
-  padding: 20px 40px;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -162,18 +166,29 @@ main .section .row .col {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  padding: 10px 0;
-}
-main .section .row .col p {
-  margin-top: 10px;
-  width: auto;
-  line-height: 17px;
+  padding: 5px;
 }
 main .section .row .col img {
-  width: 80px;
+  box-shadow: 3px 3px #2c2b57;
+  width: 100%;
 }
 main .section .content #vanue img {
   align-content: start;
+}
+main .section #outfits .titlebar {
+  margin-top: 65px;
+}
+main .section #outfits p {
+  width: 100%;
+  height: 340px;
+  font-size: 16pt;
+  text-align: start;
+  text-align: start;
+  padding: 0 30px;
+  margin-top: -8px;
+  font-family: "VT323", monospace;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
 }
 main .section .content p {
   font-size: 16pt;
@@ -192,7 +207,7 @@ main .section #bridge img {
   width: 100%;
   height: auto;
 }
-main .section #vanue img,
+main .section #vanue img.place,
 main .section #vanue .mapouter {
   box-shadow: 3px 3px #2c2b57;
   margin-bottom: 18px;
