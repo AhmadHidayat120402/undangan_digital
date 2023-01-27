@@ -31,25 +31,25 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#section1">
+                    <a href=".?page=moment">
                         <img src="img/Moment-icon.png" alt="">
                         <span class="icon-title">Moment</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#section1">
+                    <a href=".?page=vanue">
                         <img src="img/Vanue-icon.png" alt="">
                         <span class="icon-title">Vanue</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#section1">
+                    <a href=".?page=outfits">
                         <img src="img/Outfits-icon.png" alt="">
                         <span class="icon-title">Outfits</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#section1">
+                    <a href=".?page=coming">
                         <img src="img/Coming-icon.png" alt="">
                         <span class="icon-title">Coming?</span>
                     </a>

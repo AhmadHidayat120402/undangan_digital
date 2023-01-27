@@ -3,6 +3,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 /* font-family: 'Oswald', sans-serif; */
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #9999ff #cfcfcf;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: #cfcfcf;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9999ff;
+  border-radius: 0;
+  border: none;
+}
+/* Scrollbar */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +43,7 @@ main {
   margin: 0 auto;
   max-width: 480px;
   background-color: #63619f;
+  /* background-image: url(../img/bg-img.png); */
 }
 main .menu-bar {
   width: 100%;
@@ -87,12 +112,9 @@ main p {
   padding: 0 25px;
 }
 main p.subtitle {
-  font-size: 20pt;
+  font-size: 20pt !important;
   margin-top: 30px;
-  text-align: start;
-  padding: 0;
-  font-family: "VT323", monospace;
-  color: #99ffff;
+  color: #99ffff !important;
   text-decoration: underline;
 }
 main p.justify {
@@ -110,7 +132,6 @@ main .section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   position: relative;
 }
 main .width_bottom {
@@ -151,17 +172,48 @@ main .section .row .col p {
 main .section .row .col img {
   width: 80px;
 }
-main .section #bridge hr {
+main .section .content #vanue img {
+  align-content: start;
+}
+main .section .content p {
+  font-size: 16pt;
+  text-align: start;
+  text-align: start;
+  padding: 0;
+  font-family: "VT323", monospace;
+  color: #fff;
+}
+main .section .content hr {
   margin: 38px 0;
-  border: 2px solid #4c4a8f;
+  border: 1px solid #4c4a8f;
   box-shadow: 1px 2px #3a3873;
 }
 main .section #bridge img {
   width: 100%;
   height: auto;
 }
+main .section #vanue img,
+main .section #vanue .mapouter {
+  box-shadow: 3px 3px #2c2b57;
+  margin-bottom: 18px;
+}
+.mt-2 {
+}
 @media screen and (min-width: 480px) {
   main .navigation {
-    position: relative;
+    width: 100%;
+    background-color: transparent;
+  }
+  main .navigation ul {
+    background-color: #dddddd;
+    margin: 0px auto;
+    width: 700px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+    justify-content: space-evenly;
+  }
+  body {
+    background-color: #4d4c7e;
   }
 }
