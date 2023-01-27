@@ -12,16 +12,20 @@
 
 <body>
     <main>
+        <div class="menu-bar">
+            <img src="img/bar-left.png">
+            <img src="img/bar-right.png">
+        </div>
         <div class="navigation">
             <ul>
                 <li>
-                    <a href="#section1">
+                    <a href=".?page=invitation">
                         <img src="img/Invitation-icon.png" alt="">
                         <span class="icon-title">Invitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#section1">
+                    <a href=".?page=bridge">
                         <img src="img/Bridge-icon.png" alt="">
                         <span class="icon-title">Bridge</span>
                     </a>
@@ -53,8 +57,18 @@
 
             </ul>
         </div>
-        <section class="section width_bottom">
+        <section class="section">
+            <?php
+            $page = @$_GET['page'];
+            $hal = "page/$page.php";
+            $home = "page/invitation.php";
+            if (!empty($page) && file_exists($hal)) {
+                include $hal;
+            } else {
+                include $home;
+            }
 
+            ?>
         </section>
 
     </main>

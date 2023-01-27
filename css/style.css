@@ -20,6 +20,15 @@ main {
   max-width: 480px;
   background-color: #63619f;
 }
+main .menu-bar {
+  width: 100%;
+  padding-top: 38px;
+  background-color: #dddddd;
+  display: flex;
+  /* border-bottom: ; */
+  justify-content: space-between;
+}
+
 main .navigation {
   position: fixed;
   bottom: 0;
@@ -30,7 +39,7 @@ main .navigation {
   padding: 0.3rem 1rem;
   /* display: grid; */
   align-content: center;
-  transition: 0.3s;
+  /* transition: 0.3s; */
   /* border-top: 0.5px solid #95603239; */
 }
 main .navigation ul,
@@ -59,10 +68,13 @@ main .navigation ul li a .icon {
 }
 
 main .nama-pasangan {
-  font-size: 28px;
+  font-size: 50pt;
   font-family: "VT323", monospace;
-  font-weight: 500;
-  color: #5a523f;
+  font-weight: 300;
+  line-height: normal;
+  color: #fff;
+  text-align: start;
+  text-decoration: underline;
 }
 main .nama-pasangan.dan {
   margin: -10px 0;
@@ -74,6 +86,15 @@ main p {
   width: 300px;
   padding: 0 25px;
 }
+main p.subtitle {
+  font-size: 20pt;
+  margin-top: 30px;
+  text-align: start;
+  padding: 0;
+  font-family: "VT323", monospace;
+  color: #99ffff;
+  text-decoration: underline;
+}
 main p.justify {
   text-align: justify;
 }
@@ -84,8 +105,8 @@ main .nama-tamu {
 }
 
 main .section {
-  padding: 10px 0 80px 0;
-  height: 100vh;
+  padding: 38px 0 90px 0;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -97,10 +118,6 @@ main .width_bottom {
 }
 main .content {
   z-index: 2;
-}
-main .section img.img-utama {
-  width: 240px;
-  height: auto;
 }
 main .section img.img-pasangan {
   width: 100px;
@@ -134,7 +151,15 @@ main .section .row .col p {
 main .section .row .col img {
   width: 80px;
 }
-
+main .section #bridge hr {
+  margin: 38px 0;
+  border: 2px solid #4c4a8f;
+  box-shadow: 1px 2px #3a3873;
+}
+main .section #bridge img {
+  width: 100%;
+  height: auto;
+}
 @media screen and (min-width: 480px) {
   main .navigation {
     position: relative;
