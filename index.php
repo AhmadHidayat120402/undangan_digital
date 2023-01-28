@@ -71,10 +71,8 @@
             } else {
                 include $home;
             }
-
             ?>
         </section>
-
     </main>
 </body>
 

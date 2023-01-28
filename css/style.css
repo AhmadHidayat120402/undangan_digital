@@ -241,7 +241,7 @@ main .section #vanue .mapouter {
   width: 310px;
   /* height: 40px; */
   box-shadow: 0 0 0 2px #b8b0a3;
-  border : none;
+  border: none;
 }
 
 .select-coming {
@@ -252,7 +252,7 @@ main .section #vanue .mapouter {
   background: #6f6db0;
   width: 310px;
   box-shadow: 0 0 0 2px #b8b0a3;
-  border : none;
+  border: none;
 }
 
 .input-greetings {
@@ -263,7 +263,7 @@ main .section #vanue .mapouter {
   background: #6f6db0;
   width: 310px;
   box-shadow: 0 0 0 2px #b8b0a3;
-  border : none;
+  border: none;
 }
 
 .btn-submit {
@@ -273,27 +273,48 @@ main .section #vanue .mapouter {
   padding-left: 15px;
   padding-right: 15px;
   box-shadow: 0 0 0 2px #b8b0a3;
-  border : none;
+  border: none;
 }
-.notes{
+.notes {
   margin-top: 25px;
 }
-.output{
+.output {
   margin-top: -8px;
   background: white;
   padding: 10px;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  width: 400px;
 }
 
-.bg-hadir{
-  background: #079E83;
-  color:white;
-  font-style: normal;
-  font-weight: 300;
-  padding-right : 5px;
-  padding-left : 5px;
+.bg-hadir {
+  background: #079e83;
+  color: white;
+  /* font-style: normal; */
+  font-weight: 500;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.bg-bailed {
+  background: red;
+  color: white;
+  /* font-style: normal; */
+  font-weight: 500;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.bg-maybe {
+  background: rgb(207, 207, 2);
+  color: white;
+  /* font-style: normal; */
+  font-weight: 500;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 /* .nama-tamu{
   margin-right: 400px;
 } */
+.ouput h4,
+p {
+  display: inline;
+}
