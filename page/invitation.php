@@ -4,5 +4,8 @@
         <br> and <br>
         Abiyasa
     </h1>
-    <p class="subtitle">Open Ivitation</p>
+    <a href=".?page=bridge">
+        <p class="subtitle">Open Ivitation
+        </p>
+    </a>
 </div>

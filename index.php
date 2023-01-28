@@ -23,37 +23,37 @@
         </div>
         <div class="navigation">
             <ul>
-                <li <?php if ($_GET['page'] == "invitation") { ?> class="active" <?php   }  ?>>
+                <li <?php if (isset($_GET['page']) && $_GET['page'] == "invitation") { ?> class="active" <?php } ?>>
                     <a href=".?page=invitation">
                         <img src="img/Invitation-icon.png" alt="">
                         <span class="icon-title">Invitation</span>
                     </a>
                 </li>
-                <li <?php if ($_GET['page'] == "bridge") { ?> class="active" <?php   }  ?>>
+                <li <?php if (isset($_GET['page']) && $_GET['page'] == "bridge") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=bridge">
                         <img src="img/Bridge-icon.png" alt="">
                         <span class="icon-title">Bridge</span>
                     </a>
                 </li>
-                <li <?php if ($_GET['page'] == "moment") { ?> class="active" <?php   }  ?>>
+                <li <?php if (isset($_GET['page']) && $_GET['page'] == "moment") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=moment">
                         <img src="img/Moment-icon.png" alt="">
                         <span class="icon-title">Moment</span>
                     </a>
                 </li>
-                <li <?php if ($_GET['page'] == "vanue") { ?> class="active" <?php   }  ?>>
+                <li <?php if (isset($_GET['page']) && $_GET['page'] == "vanue") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=vanue">
                         <img src="img/Vanue-icon.png" alt="">
                         <span class="icon-title">Vanue</span>
                     </a>
                 </li>
-                <li <?php if ($_GET['page'] == "outfits") { ?> class="active" <?php   }  ?>>
+                <li <?php if (isset($_GET['page']) && $_GET['page'] == "outfits") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=outfits">
                         <img src="img/Outfits-icon.png" alt="">
                         <span class="icon-title">Outfits</span>
                     </a>
                 </li>
-                <li <?php if ($_GET['page'] == "coming") { ?> class="active" <?php   }  ?>>
+                <li <?php if (isset($_GET['page']) && $_GET['page'] == "coming") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=coming">
                         <img src="img/Coming-icon.png" alt="">
                         <span class="icon-title">Coming?</span>

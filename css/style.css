@@ -233,3 +233,67 @@ main .section #vanue .mapouter {
     background-color: #4d4c7e;
   }
 }
+.input-username {
+  background: #6f6db0;
+  color: white;
+  display: block;
+  margin-top: 25px;
+  width: 310px;
+  /* height: 40px; */
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border : none;
+}
+
+.select-coming {
+  display: block;
+  /* height: 40px; */
+  color: white;
+  margin-top: 20px;
+  background: #6f6db0;
+  width: 310px;
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border : none;
+}
+
+.input-greetings {
+  display: block;
+  /* height: 40px; */
+  color: white;
+  margin-top: 20px;
+  background: #6f6db0;
+  width: 310px;
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border : none;
+}
+
+.btn-submit {
+  margin-top: 20px;
+  margin-left: 240px;
+  /* width: 50px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border : none;
+}
+.notes{
+  margin-top: 25px;
+}
+.output{
+  margin-top: -8px;
+  background: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-hadir{
+  background: #079E83;
+  color:white;
+  font-style: normal;
+  font-weight: 300;
+  padding-right : 5px;
+  padding-left : 5px;
+}
+/* .nama-tamu{
+  margin-right: 400px;
+} */
