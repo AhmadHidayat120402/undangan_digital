@@ -79,12 +79,15 @@ main .navigation ul li {
   list-style: none;
   min-width: 95px;
 }
+main .navigation ul li.active a {
+  color: #262626 !important;
+}
 main .navigation ul li a {
   text-decoration: none;
   flex-direction: column;
   align-items: center;
   row-gap: 0rem;
-  color: #262626;
+  color: #696969 !important;
   font-weight: 600;
 }
 main .navigation ul li a .icon {
@@ -211,8 +214,6 @@ main .section #vanue img.place,
 main .section #vanue .mapouter {
   box-shadow: 3px 3px #2c2b57;
   margin-bottom: 18px;
-}
-.mt-2 {
 }
 @media screen and (min-width: 480px) {
   main .navigation {
