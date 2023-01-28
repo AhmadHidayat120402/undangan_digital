@@ -8,10 +8,13 @@
     <title>Silky & Abiyasa</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/iconbrowser.png">
 </head>
 
 <body>
+
     <main>
+
         <div class="menu-bar">
             <img src="img/bar-left.png">
             <img src="img/bar-right.png">
