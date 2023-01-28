@@ -16,7 +16,6 @@
         <source src="audio/The Wannadies  You  Me Song Official Video.mp3" type="audio/mpeg">
     </audio>
     <main>
-
         <div class="menu-bar">
             <img src="img/bar-left.png">
             <img src="img/bar-right.png">
