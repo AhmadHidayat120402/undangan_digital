@@ -15,13 +15,12 @@ if (isset($_POST['simpan'])) {
 
 ?>
 
-<div class="content " id="outfits">
+<div class="content " id="coming">
     <img src="img/coming.png" class="pd-content" alt="">
-    <div class="row pd-content">
+    <div class="pd-content">
         <form action="" method="POST">
-            <input type="text" placeholder="Agus Setiawan" class="input-username" name="username">
+            <input type="text" placeholder="Name" class="input-username" name="username">
             <select name="coming" id="coming" aria-placeholder="Coming ?" class="select-coming">
-                <option value=""></option>
                 <option value="come">Come</option>
                 <option value="bailed">Bailed</option>
                 <option value="maybe">Maybe</option>
@@ -34,9 +33,10 @@ if (isset($_POST['simpan'])) {
     <?php
     include 'connect.php';
     $greetings = mysqli_query($koneksi, "SELECT * FROM tb_greetings  Order by id DESC");
-    while ($ucapan = mysqli_fetch_array($greetings)) {
     ?>
-        <div class="output">
+    <div class="output">
+        <?php
+        while ($ucapan = mysqli_fetch_array($greetings)) { ?>
             <h4 class="nama-tamu"><?php echo $ucapan['nama']  ?>
                 <?php if ($ucapan['status_kehadiran'] == "come") { ?>
                     <span class="bg-hadir"><?php echo $ucapan['status_kehadiran'] ?></span>
@@ -46,8 +46,8 @@ if (isset($_POST['simpan'])) {
                     <span class="bg-maybe"><?php echo $ucapan['status_kehadiran'] ?></span>
                 <?php } ?>
             </h4>
-            <p><?php echo $ucapan['ucapan'] ?></p>
-        </div>
-        <hr>
-    <?php } ?>
+            <p class="ucapan"><?php echo $ucapan['ucapan'] ?></p>
+            <hr>
+        <?php } ?>
+    </div>
 </div>

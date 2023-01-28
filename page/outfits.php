@@ -14,7 +14,7 @@
             <img src="img/dresscode-img4.png" alt="">
         </div>
     </div>
-    <img class="titlebar" src="img/Title Bar.png" width="100%" alt="">
+    <img class="mt-2" src="img/Title Bar.png" width="100%" alt="">
     <p>This is pretentious casual bbq party, so white shirt or white dress is a mandatory. Don't be a fool.
         <br><br>
         x No Batik

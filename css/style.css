@@ -183,11 +183,10 @@ main .section #outfits .titlebar {
 }
 main .section #outfits p {
   width: 100%;
-  height: 340px;
+  height: 440px;
   font-size: 16pt;
   text-align: start;
-  text-align: start;
-  padding: 0 30px;
+  padding: 20px 30px;
   margin-top: -8px;
   font-family: "VT323", monospace;
   background-color: #fff;
@@ -233,14 +232,21 @@ main .section #vanue .mapouter {
     background-color: #4d4c7e;
   }
 }
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
 .input-username {
   background: #6f6db0;
-  color: white;
+  color: white !important;
   display: block;
   margin-top: 25px;
-  width: 310px;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
   /* height: 40px; */
-  box-shadow: 0 0 0 2px #b8b0a3;
+  box-shadow: 1px 2px #3a3873;
   border: none;
 }
 
@@ -250,8 +256,10 @@ main .section #vanue .mapouter {
   color: white;
   margin-top: 20px;
   background: #6f6db0;
-  width: 310px;
-  box-shadow: 0 0 0 2px #b8b0a3;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  box-shadow: 1px 2px #3a3873;
   border: none;
 }
 
@@ -261,60 +269,76 @@ main .section #vanue .mapouter {
   color: white;
   margin-top: 20px;
   background: #6f6db0;
-  width: 310px;
-  box-shadow: 0 0 0 2px #b8b0a3;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  box-shadow: 1px 2px #3a3873;
   border: none;
 }
 
 .btn-submit {
-  margin-top: 20px;
-  margin-left: 240px;
+  margin-top: 12px;
   /* width: 50px; */
-  padding-left: 15px;
-  padding-right: 15px;
-  box-shadow: 0 0 0 2px #b8b0a3;
+  padding: 0 25px;
+  box-shadow: 1px 2px #3a3873;
   border: none;
 }
 .notes {
   margin-top: 25px;
 }
 .output {
+  width: 100% !important;
   margin-top: -8px;
   background: white;
   padding: 10px;
+  min-height: 600px;
   /* justify-content: center;
   align-items: center; */
-  width: 400px;
 }
 
 .bg-hadir {
   background: #079e83;
   color: white;
   /* font-style: normal; */
-  font-weight: 500;
-  padding-right: 5px;
-  padding-left: 5px;
+  font-weight: 300;
+  padding: 0 5px;
+  border-radius: 3px;
+  font-size: 10pt;
 }
 .bg-bailed {
   background: red;
   color: white;
   /* font-style: normal; */
-  font-weight: 500;
-  padding-right: 5px;
-  padding-left: 5px;
+  font-weight: 300;
+  padding: 0 5px;
+  border-radius: 3px;
+  font-size: 10pt;
 }
 .bg-maybe {
   background: rgb(207, 207, 2);
   color: white;
   /* font-style: normal; */
-  font-weight: 500;
-  padding-right: 5px;
-  padding-left: 5px;
+  font-weight: 300;
+  padding: 0 5px;
+  border-radius: 3px;
+  font-size: 10pt;
 }
 /* .nama-tamu{
   margin-right: 400px;
 } */
-.ouput h4,
-p {
-  display: inline;
+#coming {
+  width: 100%;
+}
+p.ucapan {
+  color: #000 !important;
+}
+
+main .section #coming hr {
+  margin: 38px 0;
+  border: 0.5px solid #4c4a8f9d;
+  box-shadow: 0.5px 0.5px #3a38737e;
+}
+
+.mt-2 {
+  margin-top: 18px;
 }
