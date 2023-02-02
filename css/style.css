@@ -96,13 +96,14 @@ main .navigation ul li a .icon {
 }
 
 main .nama-pasangan {
-  font-size: 35pt;
+  font-size: 44pt;
   font-family: "VT323", monospace;
   font-weight: 300;
   line-height: normal;
   color: #fff;
   text-align: start;
   text-decoration: underline;
+  margin: 30px 0;
 }
 main .nama-pasangan.dan {
   margin: -10px 0;
@@ -161,15 +162,15 @@ main .section img.img-pasangan {
 } */
 main .section .row {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
 }
 main .section .row .col {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  padding: 5px;
+  width: 48%;
 }
 main .section .row .col img {
   box-shadow: 3px 3px #2c2b57;
@@ -290,7 +291,7 @@ main .section #vanue .mapouter {
   width: 100% !important;
   margin-top: -8px;
   background: white;
-  padding: 10px;
+  padding: 10px 30px;
   min-height: 600px;
   /* justify-content: center;
   align-items: center; */
@@ -341,4 +342,12 @@ main .section #coming hr {
 
 .mt-2 {
   margin-top: 18px;
+}
+
+#bridge,
+#moment,
+#vanue,
+#outfits,
+#coming {
+  display: none;
 }

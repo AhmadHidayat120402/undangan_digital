@@ -9,7 +9,7 @@
     <hr>
     <img src="img/party-title.png" alt="">
     <div class="mapouter">
-        <div class="gmap_canvas"><iframe width="237" height="130" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.%20Teuku%20Cik%20Ditiro%20II%20No.2,%20Gondangdia,%20Kec.%20Menteng,%20Kota%20Jakarta%20Pusat&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br>
+        <div class="gmap_canvas"><iframe width="237" height="130" id="gmap_canvas" src="https://maps.google.com/maps?width=358&amp;height=305&amp;hl=en&amp;q=DAIMA NORWOOD HOTEL&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br>
             <style>
                 .mapouter {
                     position: relative;
@@ -33,4 +33,27 @@
     <p>It will be better, if you come with public
         transportation because of limited parking area. <br>
         We’re sorry :(</p>
+</div>
+
+<div class="mapouter">
+    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=358&amp;height=305&amp;hl=en&amp;q=DAIMA NORWOOD HOTEL&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://pdflist.com/" alt="pdf download">Pdf download</a></div>
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            width: 100%;
+            height: 305px;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            height: 305px;
+        }
+
+        .gmap_iframe {
+            height: 305px !important;
+        }
+    </style>
 </div>

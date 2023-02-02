@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        /* Style the active class, and buttons on mouse-over */
+        .active {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item"><a class="nav-link"><strong style="text-transform:uppercase">home</strong></a></li>
+        <li class="nav-item"><a class="nav-link"><strong style="text-transform:uppercase">about</strong></a></li>
+        <li class="nav-item"><a class="nav-link"><strong>FLIGHTS</strong></a></li>
+        <li class="nav-item"><a class="nav-link"><strong>HOTELS</strong></a></li>
+        <li class="nav-item"><a class="nav-link"><strong>HOLIDAYS</strong></a></li>
+        <li class="nav-item "><a class="nav-link"><strong>PROPERTY</strong></a></li>
+        <li class="nav-item"><a class="nav-link"><strong>CAR HIRE</strong></a></li>
+    </ul>
+
+    <script>
+        // Add active class to the current button (highlight it)
+        document.querySelectorAll(".nav-item").forEach((ele) =>
+            ele.addEventListener("click", function (event) {
+                event.preventDefault();
+                document
+                    .querySelectorAll(".nav-item")
+                    .forEach((ele) => ele.classList.remove("active"));
+                this.classList.add("active")
+            })
+        );
+    </script>
+
+</body>
+
+</html>
