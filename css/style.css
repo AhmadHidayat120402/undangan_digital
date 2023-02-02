@@ -96,7 +96,7 @@ main .navigation ul li a .icon {
 }
 
 main .nama-pasangan {
-  font-size: 50pt;
+  font-size: 35pt;
   font-family: "VT323", monospace;
   font-weight: 300;
   line-height: normal;
@@ -116,7 +116,7 @@ main p {
 }
 main p.subtitle {
   font-size: 20pt !important;
-  margin-top: 30px;
+  margin-top: 0px;
   color: #99ffff !important;
   text-decoration: underline;
 }

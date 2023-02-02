@@ -31,7 +31,7 @@
                 <li <?php if (isset($_GET['page']) && $_GET['page'] == "bridge") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=bridge">
                         <img src="img/Bridge-icon.png" alt="">
-                        <span class="icon-title">Bridge</span>
+                        <span class="icon-title">Bride</span>
                     </a>
                 </li>
                 <li <?php if (isset($_GET['page']) && $_GET['page'] == "moment") { ?> class="active" <?php   }  ?>>
@@ -43,7 +43,7 @@
                 <li <?php if (isset($_GET['page']) && $_GET['page'] == "vanue") { ?> class="active" <?php   }  ?>>
                     <a href=".?page=vanue">
                         <img src="img/Vanue-icon.png" alt="">
-                        <span class="icon-title">Vanue</span>
+                        <span class="icon-title">Venue</span>
                     </a>
                 </li>
                 <li <?php if (isset($_GET['page']) && $_GET['page'] == "outfits") { ?> class="active" <?php   }  ?>>
