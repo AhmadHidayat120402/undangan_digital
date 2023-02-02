@@ -78,4 +78,18 @@ document.getElementById('nav-coming').addEventListener('click', () => {
     document.getElementById('coming').style.display = "inline";
 })
 
+
+document.getElementById('open-invitation').addEventListener('click', () => {
+    console.info('info now ' + navActiveNow)
+    document.getElementById(`${navActiveNow}`).classList.remove('active');
+    document.getElementById('nav-bride').classList.add('active');
+    console.info('bride');
+    navActiveNow = "nav-bride";
+    document.getElementById('invitation').style.display = "none";
+    document.getElementById('bridge').style.display = "inline";
+    document.getElementById('moment').style.display = "none";
+    document.getElementById('vanue').style.display = "none";
+    document.getElementById('outfits').style.display = "none";
+    document.getElementById('coming').style.display = "none";
+});
 console.info('info now ' + navActiveNow)

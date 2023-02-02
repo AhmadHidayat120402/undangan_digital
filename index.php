@@ -37,37 +37,37 @@ if (isset($_POST['simpan'])) {
         </div>
         <div class="navigation">
             <ul>
-                <li id="nav-invitation" <?php if (isset($_GET['page']) && $_GET['page'] == "invitation") { ?> class="active" <?php } ?>>
+                <li id="nav-invitation">
                     <a href="#">
                         <img src="img/Invitation-icon.png" alt="">
                         <span class="icon-title">Invitation</span>
                     </a>
                 </li>
-                <li id="nav-bride" <?php if (isset($_GET['page']) && $_GET['page'] == "bridge") { ?> class="active" <?php   }  ?>>
+                <li id="nav-bride">
                     <a href="#">
                         <img src="img/Bridge-icon.png" alt="">
                         <span class="icon-title">Bride</span>
                     </a>
                 </li>
-                <li id="nav-moment" <?php if (isset($_GET['page']) && $_GET['page'] == "moment") { ?> class="active" <?php   }  ?>>
+                <li id="nav-moment">
                     <a href="#">
                         <img src="img/Moment-icon.png" alt="">
                         <span class="icon-title">Moment</span>
                     </a>
                 </li>
-                <li id="nav-vanue" <?php if (isset($_GET['page']) && $_GET['page'] == "vanue") { ?> class="active" <?php   }  ?>>
+                <li id="nav-vanue">
                     <a href="#">
                         <img src="img/Vanue-icon.png" alt="">
                         <span class="icon-title">Venue</span>
                     </a>
                 </li>
-                <li id="nav-outfit" <?php if (isset($_GET['page']) && $_GET['page'] == "outfits") { ?> class="active" <?php   }  ?>>
+                <li id="nav-outfit">
                     <a href="#">
                         <img src="img/Outfits-icon.png" alt="">
                         <span class="icon-title">Outfits</span>
                     </a>
                 </li>
-                <li id="nav-coming" <?php if (isset($_GET['page']) && $_GET['page'] == "coming") { ?> class="active" <?php   }  ?>>
+                <li id="nav-coming">
                     <a href="#">
                         <img src="img/Coming-icon.png" alt="">
                         <span class="icon-title">Coming?</span>
@@ -78,30 +78,30 @@ if (isset($_POST['simpan'])) {
         </div>
         <section class="section">
             <!-- Invitation -->
-            <div class="content" id="invitation">
+            <div class="content pb-div" id="invitation">
                 <img src="img/invitation-img.png" alt="">
                 <h1 class="nama-pasangan">Silky
                     <br>
                     and
                     Abiyasa
                 </h1>
-                <a href=".?page=bridge">
-                    <p class="subtitle">Open Ivitation
+                <a href="#">
+                    <p id="open-invitation" class="subtitle">Open Ivitation
                     </p>
                 </a>
             </div>
             <!-- Bride -->
-            <div class="content pd-content" id="bridge">
+            <div class="content pd-content pb-div" id="bridge">
                 <img src="img/bride-img1.png" alt="">
                 <hr>
                 <img src="img/bride-img2.png" alt="">
             </div>
             <!-- Moment -->
-            <div class="content" id="moment">
+            <div class="content pb-div" id="moment">
                 <img src="img/moment-img.png" alt="">
             </div>
             <!-- Vanue -->
-            <div class="content pd-content" id="vanue">
+            <div class="content pd-content pb-div" id="vanue">
                 <img src="img/party-title.png" alt="">
                 <p>Date: Saturday, February 18th 2023</p>
                 <p>Time: 18.00 - 20.00</p>
