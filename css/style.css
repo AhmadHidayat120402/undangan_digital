@@ -85,9 +85,9 @@ main .navigation {
   height: 40px;
   transition: 0.8s;
 }
-.navigation .img-geser:hover {
+/* .navigation .img-geser:hover {
   opacity: 0%;
-}
+} */
 main .navigation ul,
 main .navigation a {
   display: flex;

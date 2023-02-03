@@ -211,6 +211,9 @@ if (isset($_POST['simpan'])) {
                             <?php } elseif ($ucapan['status_kehadiran'] == "maybe") { ?>
                                 <span class="bg-maybe"><?php echo $ucapan['status_kehadiran'] ?></span>
                             <?php } ?>
+                            document.getElementById('img-swipe').addEventListener('click', () => {
+                            document.getElementById('img-swipe').style.visibility = "hidden";
+                            });
                         </h4>
                         <p class="ucapan"><?php echo $ucapan['ucapan'] ?></p>
                         <hr>
