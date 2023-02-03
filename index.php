@@ -49,7 +49,8 @@ if (isset($_POST['simpan'])) {
             <img src="img/bar-left.png">
             <img src="img/bar-right.png">
         </div>
-        <div class="navigation">
+        <div class="navigation" id="nav-scroll">
+            <img class="img-geser" id="img-swipe" src="img/geser.png">
             <ul>
                 <li id="nav-invitation">
                     <a href="#">
@@ -220,7 +221,9 @@ if (isset($_POST['simpan'])) {
     </main>
     <script src="js/action-nav.js"></script>
     <script type="text/javascript">
-
+        document.getElementById('nav-scroll').addEventListener('click', () => {
+            document.getElementById('img-swipe').style.visibility = "hidden";
+        });
     </script>
 </body>
 

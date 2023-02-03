@@ -97,6 +97,7 @@ document.getElementById('open-invitation').addEventListener('click', () => {
     document.getElementById('outfits').style.display = "none";
     document.getElementById('coming').style.display = "none";
 });
+
 console.info('info now ' + navActiveNow)
 
 document.getElementById('open-invitation-awal').addEventListener('click', () => {
