@@ -183,7 +183,7 @@ if (isset($_POST['simpan'])) {
             <div class="content " id="coming">
                 <img src="img/coming.png" class="pd-content" alt="">
                 <div class="pd-content">
-                    <form name="coming-form-invitation">
+                    <form method="POST" name="coming-form-invitation">
                         <input type="text" placeholder="Name" class="input-username" name="nama">
                         <select name="coming" aria-placeholder="Coming ?" class="select-coming">
                             <option value="come">Come</option>
