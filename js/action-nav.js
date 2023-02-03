@@ -1,4 +1,9 @@
 let navActiveNow = "nav-invitation";
+let music = document.getElementById('song');
+
+function playAudio() {
+    music.play();
+}
 document.getElementById('nav-invitation').addEventListener('click', () => {
     console.info('info now ' + navActiveNow)
     document.getElementById(`${navActiveNow}`).classList.remove('active');
@@ -93,3 +98,8 @@ document.getElementById('open-invitation').addEventListener('click', () => {
     document.getElementById('coming').style.display = "none";
 });
 console.info('info now ' + navActiveNow)
+
+document.getElementById('open-invitation-awal').addEventListener('click', () => {
+    document.getElementById('popUp').style.display = "none";
+    playAudio();
+});

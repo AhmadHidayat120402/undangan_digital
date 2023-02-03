@@ -13,7 +13,8 @@
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 10px;
-  height: 0;
+  height: 10px;
+  overflow: visible;
 }
 
 *::-webkit-scrollbar-track {
@@ -39,6 +40,15 @@ html {
   scroll-behavior: smooth;
   /* overflow-y: hidden; */
 }
+.popup {
+  position: fixed;
+  background-color: #63619f;
+  z-index: 2000;
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 20px 40px 20px;
+}
+
 main {
   margin: 0 auto;
   max-width: 480px;
@@ -94,8 +104,10 @@ main .navigation ul li a .icon {
   color: #956032 !important;
   font-size: 22px;
 }
-
-main .nama-pasangan {
+.popup .nama-pasangan {
+  font-size: 35pt;
+}
+.nama-pasangan {
   font-size: 44pt;
   font-family: "VT323", monospace;
   font-weight: 300;
@@ -115,7 +127,8 @@ main p {
   width: 300px;
   padding: 0 25px;
 }
-main p.subtitle {
+main p.subtitle,
+.popup p.subtitle {
   font-size: 20pt !important;
   margin-top: 0px;
   color: #99ffff !important;

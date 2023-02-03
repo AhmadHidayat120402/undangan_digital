@@ -27,7 +27,21 @@ if (isset($_POST['simpan'])) {
 </head>
 
 <body>
-    <audio autoplay loop>
+    <div class="popup" id="popUp">
+        <div class="content pb-div">
+            <img src="img/invitation-img.png" alt="">
+            <h1 class="nama-pasangan">Silky
+                and
+                Abiyasa
+            </h1>
+            <a href="#">
+                <p id="open-invitation-awal" class="subtitle">Open Ivitation
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <audio loop id="song">
         <source src="audio/The Wannadies  You  Me Song Official Video.mp3" type="audio/mpeg">
     </audio>
     <main>
@@ -86,7 +100,7 @@ if (isset($_POST['simpan'])) {
                     Abiyasa
                 </h1>
                 <a href="#">
-                    <p id="open-invitation" class="subtitle">Open Ivitation
+                    <p id="open-invitation" class="subtitle">
                     </p>
                 </a>
             </div>
@@ -205,6 +219,9 @@ if (isset($_POST['simpan'])) {
         </section>
     </main>
     <script src="js/action-nav.js"></script>
+    <script type="text/javascript">
+
+    </script>
 </body>
 
 </html>
